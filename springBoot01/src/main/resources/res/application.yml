@@ -1,0 +1,14 @@
+name： 传智播客
+url： http://www.itcast.cn
+
+spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/springboot_db
+      driverClassName: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      type: com.mchange.v2.c3p0.ComboPooledDataSource
+
+spring: 
+    profiles: 
+        active: database,jap,freemarker
